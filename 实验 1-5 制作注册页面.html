@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实验 1-5 制作注册页面</title>
+</head>
+<body>
+    <span style="font-size:x-large;">下面就开始在线报名吧</span>
+    <span>（以下信息是报名的重要依据，请认真填写）</span>
+    <form action="">
+        <p>姓名 <span style="color: red;">*  </span><input type="text" value="报名的重要依据，请认真填写" size="30"></p>
+        <p>手机 <span style="color: red;">*  </span><input type="text" value="报名的重要依据，请认真填写" size="30"></p>
+        <p><span>性别 </span>
+        <span style="color: red;">*  </span>
+        <span><label><input type="radio" name="sex">男</label></span>
+        <span><label><input type="radio" name="sex">女</label></span>
+        </p>
+        <p>邮箱 <span style="color: red;">*  </span><input type="text"></p>
+        <p>意向课程 <span style="color: red;">*  </span><select >
+            <option value="平面设计" selected="selected">平面设计</option>
+            <option value="前端技术">前端技术</option>
+            <option value="后端技术">后端技术</option>
+        </select></p>
+        <p>了解渠道   
+            <label ><input type="checkbox" name="understand" value="baidu">baidu</label>
+            <label ><input type="checkbox" name="understand" value="论坛">论坛</label>
+            <label ><input type="checkbox" name="understand" value="朋友推荐">朋友推荐</label>
+            <label ><input type="checkbox" name="understand" value="CSDN网站">CSDN网站</label>
+            <label ><input type="checkbox" name="understand" value="视频教程">视频教程</label>
+            <label ><input type="checkbox" name="understand" value="其他">其他</label>
+        </p>
+         <p>留言<textarea name="" id="" cols="50" rows="10">请简述您为什么要学习网页设计？</textarea></p>
+         <input type="submit" value="提交">
+    </form>
+</body>
+</html>
